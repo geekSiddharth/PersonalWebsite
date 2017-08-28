@@ -1,0 +1,140 @@
+.parallax-window div {
+    background-color: transparent;
+}
+.parallax-window div div{
+    background-color: transparent;
+}
+
+.plax{
+    color: white;
+}
+.md{
+    font-size: 4vh;
+    transform: translate(0%,300%);
+}
+
+.websites{
+    font-family: 'Neucha', cursive;
+}
+
+.ab { transition: all .3s ease-in; }
+.ab:hover { color: rgba(255,159,64,.95); }
+.ab:hover .img-circle, .ab:hover .img-thumbnail
+{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    transform: scale(1.1, 1.1);
+}
+.ab h3 {  }
+
+.img-circle, .img-thumbnail
+{
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: all .3s ease-in-out;
+}
+.img-circle:hover, .img-thumbnail:hover
+{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    transform: scale(1.1, 1.1);
+    border-color: rgba(255,159,64,1);
+}
+.sb
+{
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
+    text-indent: -900em;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: 1%;
+    transition: all .3s ease-out;
+    border-radius: 10%;
+}
+.fb:hover { background-image: url(../images/white_facebook.png); }
+.tw:hover { background-image: url(../images/white_twitter_bird.png); }
+.in:hover { background-image: url(../images/white_linkedin.png); }
+.sb:hover
+{
+    background-color: rgba(255,159,64,.95);
+    transform: rotate(360deg);
+}
+.heading{
+    padding: 10% 0% 10% 0%;
+}
+.middle{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center ;
+}
+
+.middleRelative{
+    position:relative;;
+    top: 50%;
+    left: 50%;
+    transform-origin: center ;
+
+}
+.jumbotron{
+}
+.textwithbackgroud{
+    text-shadow: 6px 6px 80px rgba(255,255,255,0.4);
+}
+
+.white{
+    color: white;
+}
+
+.heading h1{
+    font-size: 12vh;
+}
+.hov{
+    transition: all 0.3s ease-out;
+}
+.black{
+    color: #444444;
+}
+.hov:hover{
+    color: #FF7043;
+    -webkit-filter: grayscale(30%);
+    text-shadow: 2px 2px 80px rgba(255,112,67,0.5);
+    transform: scale(1.02,1.02);
+}
+a{
+    color:black;
+    text-shadow: none;
+}
+a:hover{
+    color:black;
+    text-shadow: none;
+}
+/* ---- reset ---- */
+
+body {
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://static1.squarespace.com/static/54e22e52e4b00603729049d3/t/55ae7d33e4b0d3eba634d618/1437498678470/grey-website-background.jpg?format=2500w");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
